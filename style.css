@@ -1,0 +1,84 @@
+/* Gaya Umum */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #010304, #1b59c4);
+    color: white;
+    padding: 20px 10px;
+    font-size: 1.5em;
+    box-shadow: 0px 4px 10px rgba(232, 218, 218, 0.2);
+}
+
+/* Section */
+section {
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Foto Profil */
+.profile-img {
+    width: 120px; /* Lebih kecil agar terlihat lebih proporsional */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1f1e7d; /* Border lebih tipis */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.profile-img:hover {
+    transform: scale(1.05); /* Efek zoom lebih halus */
+    box-shadow: 0px 4px 10px rgba(106, 17, 203, 0.3);
+}
+
+/* Judul */
+h2 {
+    color: #1f1e7d;
+    font-size: 1.8em;
+}
+
+/* Proyek */
+.project {
+    background: #ffffff;
+    padding: 15px;
+    margin: 15px auto;
+    width: 70%;
+    border-left: 5px solid #1f1e7d;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 20px rgba(106, 17, 203, 0.3);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff6600;
+}
